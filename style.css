@@ -1,0 +1,73 @@
+html{
+    background-color: lightgray;
+}
+.sign-in{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(10,1fr);
+    background-color: white;
+}
+#Logon{
+    grid-column:2/3;
+    grid-row:1/2;
+}
+article{
+    grid-column: 4/6;
+    grid-row:3/4;
+    color: gray;
+
+
+}
+
+#email_1{
+    grid-column: 1/2;
+    grid-row: 4;
+}
+
+
+#email{
+    grid-column: 1/2;
+    grid-row: 5;
+    border-bottom: gray;
+
+}
+#password_1{
+    grid-column:1/2;
+    grid-row:6;
+
+}
+#password{
+    grid-column:1/2;
+    grid-row: 7;
+
+}
+#show{
+    grid-column:8;
+    grid-row: 8/9;
+    text-align: right;
+}
+
+#forget{
+    grid-column: 2;
+    grid-row: 9/10;
+    text-align: center;
+    color: red;
+    
+}
+
+#Login{
+    background-color: green;
+    color: white;
+    text-align: center;
+    grid-column :6/9;
+    grid-row:10;
+    margin-bottom: 2%;
+    margin-right:2%;
+}
+
+#Sign{
+    grid-column:6/9;
+    grid-row:1;
+    text-align: center;
+    background-color: lightgray;
+}
