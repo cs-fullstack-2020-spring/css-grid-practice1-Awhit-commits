@@ -1,6 +1,8 @@
+/* white form should be more centered on the page and font should be sans serrif */
 html{
     background-color: lightgray;
 }
+/* sign in and log in sections should be the same size */
 .sign-in{
     display: grid;
     grid-template-columns: repeat(8,1fr);
@@ -41,12 +43,13 @@ article{
     grid-row: 7;
 
 }
+/* show should be on the same row as password and have some right padding*/
 #show{
     grid-column:8;
     grid-row: 8/9;
     text-align: right;
 }
-
+/* forget your password and the login button should be in the same row */
 #forget{
     grid-column: 2;
     grid-row: 9/10;
